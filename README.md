@@ -169,13 +169,13 @@ docker-compose logs consumer
 
 > Se accedió a la interfaz de administración de RabbitMQ en el puerto 15672. La cola `messages.queue` aparece en estado `running`, confirmando que fue creada correctamente por los servicios al iniciar.
 
-![RabbitMQ Management UI - Cola messages.queue](rabbitmq-queue.png)
+![RabbitMQ Management UI - Cola messages.queue](https://github.com/hakki17/event-driven-lab/blob/main/img/rabbitmq-queue.png)
 
 ### Mensaje procesado por el consumidor
 
 > El log del consumidor confirma que el mensaje enviado por el productor fue recibido y procesado correctamente a través de la cola RabbitMQ.
 
-![Consumer logs - Mensaje procesado](consumer-logs.png)
+![Consumer logs - Mensaje procesado](https://github.com/hakki17/event-driven-lab/blob/main/img/consumer-logs.png)
 
 ---
 
